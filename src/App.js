@@ -9,6 +9,7 @@ export default function App() {
      <Header/>
      
      <h1>Dagim</h1>
+     
      <Footer/>
     </>
    
