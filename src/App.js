@@ -7,8 +7,8 @@ export default function App() {
   return (
     <>
      <Header/>
-     <div>App</div> <br/>
-     <h1>this is it </h1>
+     
+     <h1>Dagim</h1>
      <Footer/>
     </>
    
