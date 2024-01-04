@@ -3,8 +3,8 @@ import Logo from './assets/logo.png'
 export const Header = () => {
   return (
     <div>
-         <img src={Logo} alt="" />
-      
+         <img className='logo' src={Logo} alt="logo" />
+  
     </div>
   )
 }
