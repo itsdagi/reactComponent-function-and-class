@@ -6,4 +6,3 @@ export const Footer = () => {
     <div>Footer</div>
   )
 }
-// speed
