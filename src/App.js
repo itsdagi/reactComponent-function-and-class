@@ -4,13 +4,20 @@ import {Footer} from './components/Footer';
 import {Header} from './components/Header'
 
 export default function App() {
+  let count = 0
+  function handleCount(){
+   count+=1;
+   console.log(count)
+  }
   return (
     <>
-     <Header/>
-     
-     <h1>Dagim</h1>
-     
-     <Footer/>
+    <div className='app'>
+      <div className='box'>
+        <p>{count}</p>
+        <button onClick={handleCount} className='add'>increase</button>
+        <button className='subtract'>decrease</button>
+        </div>
+    </div>
     </>
    
     
