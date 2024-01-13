@@ -13,13 +13,17 @@ export default function App() {
   function handleSub(){
     setCount(count - 1)
   }
+  function handleReset(){
+    setCount(0)
+  }
   return (
     <>
     <div className='app'>
       <div className='box'>
         <p>{count}</p>
-        <button onClick={handleCount} className='add'>increase</button>
-        <button onClick = {handleSub}className='subtract'>decrease</button>
+        <button onClick={handleCount} className='add'>Increase</button>
+        <button onClick = {handleSub}className='subtract'>Decrease</button>
+        <button onClick = {handleReset}className='reset'>Reset</button>
         </div>
     </div>
     </>
