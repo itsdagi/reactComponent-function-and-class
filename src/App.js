@@ -5,7 +5,7 @@ import {Header} from './components/Header'
 import {useState} from 'react'
 
 export default function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount]= useState(0);
   function handleCount(){
     setCount(count + 1)
   }
